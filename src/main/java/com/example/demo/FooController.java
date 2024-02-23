@@ -8,6 +8,6 @@ class FooController {
 
     @GetMapping(value = "/getAppName")
     public String getAppName() {
-        return "AWS_APP";
+        return "Build_Check";
     }
 }
